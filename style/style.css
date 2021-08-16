@@ -32,11 +32,66 @@
 
     .burg-menu{
         text-decoration: none;
+        color: #777777;
         font-size: 30px;
     }
 
     .nav-list{
         display: none;
+    }
+
+    .container-trabalhe-conosco{
+        padding: 5px;
+    }
+
+    .input-field input{
+        margin-top: 15px;
+        margin-bottom: 5px;
+    }
+
+    .container-trabalhe-conosco .input-field input{
+        width: 100%;
+    }
+
+    .container-trabalhe-conosco select{
+        margin: 10px 0;
+        width: 192px;
+    }
+
+    .container-trabalhe-conosco p{
+        margin: 15px 0 5px;
+    }
+
+    .input-field.label-message{
+        margin: 15px 0 5px;
+    }
+
+    .cv-btn{
+        width: 237px;
+        border: none;
+        background-color: #C4C4C4;
+        color: #FFF;
+    }
+
+    form button{
+        margin: 15px 0;
+        width: 100%;
+        height: 40px;
+        background-color: #C2185B;
+        border: none;
+        color: #FFF;
+        font-size: 18px;
+        font-family: 'Open Sans', sans-serif;
+    }
+
+    .input-field textarea{
+        margin: 15px 0 5px;
+        width: 100%;
+        resize: none;
+    }
+
+    .check-field label{
+        font-size: 12px;
     }
 
     .benefits-banner img{
@@ -186,6 +241,13 @@
         height: 500px;
     }
 
+    .cv-btn{
+        width: 342px;
+        border: none;
+        background-color: #C4C4C4;
+        color: #FFF;
+    }
+
 }
 
 @media (min-width: 768px){
@@ -272,6 +334,29 @@
         width: 20%;
     }
 
+    .container-trabalhe-conosco{
+        padding: 5px;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+    }
+
+    .container-trabalhe-conosco form{
+        width: 45%;
+    }
+
+    .about-us{
+        width: 45%;
+    }
+
+    .cv-btn{
+        width: 180px;
+        height: 25px;
+        border: none;
+        background-color: #C4C4C4;
+        color: #FFF;
+    }
+
 }
 
 @media (min-width: 1279px){
@@ -312,6 +397,24 @@
 
     .page-header img{
         width: 10%;
+    }
+
+    .container-trabalhe-conosco form{
+        width: 35%;
+    }
+
+    .about-us{
+        width: 35%;
+    }
+
+    .container-trabalhe-conosco{
+        justify-content: space-evenly;
+    }
+
+    .container-trabalhe-conosco .section-title{
+        font-size: 39px;
+        text-align: start;
+        color: #777777;
     }
 }
 
