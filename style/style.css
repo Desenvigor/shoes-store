@@ -14,6 +14,14 @@
         max-width: 100%;
     }
 
+    .container-trabalhe{
+        box-shadow: 0 1px 15px rgba(0, 0, 0, 0.411);
+    }
+
+    .footer-trabalhe{
+        margin-top: 80px;
+    }
+
     .page-header{
         display: flex;
         justify-content: space-between;
